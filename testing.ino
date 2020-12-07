@@ -29,7 +29,6 @@ void setup() {
   
   // Configure the PulseSensor object, by assigning our variables to it. 
   pulseSensor.analogInput(PulseWire);   
-  pulseSensor.setThreshold(Threshold);   
 
   // Double-check the "pulseSensor" object was created and "began" seeing a signal.  
    if (pulseSensor.begin()) {
